@@ -34,30 +34,30 @@ document.body.onkeyup = function (e) {
     const img = document.createElement('img');
     img.id = `${i}`;
     if (i == 1) {
-      img.src = "/make-sum-happy/public/pics/sparky-confused.png";
+      img.src = "public/pics/sparky-confused.png";
       img.style.transform = "scaleX(-1)";
     }
     if (i == 2) {
-      img.src = "/make-sum-happy/public/pics/snaky-shocked.png";
+      img.src = "/public/pics/snaky-shocked.png";
     }
     if (i == 3) {
       const sparky = document.getElementById('1');
       const snaky = document.getElementById('2');
-      sparky.src = "/make-sum-happy/public/pics/sparky-angry.png";
+      sparky.src = "public/pics/sparky-angry.png";
       sparky.style.transform = "scaleX(-1)";
-      snaky.src = "/make-sum-happy/public/pics/snaky-afraid.png";
+      snaky.src = "public/pics/snaky-afraid.png";
       dontAdd = true;
     }
     if (i == 4) {
       const snaky = document.getElementById('2');
-      snaky.src = "/make-sum-happy/public/pics/snaky-sad.png";
+      snaky.src = "public/pics/snaky-sad.png";
     }
     if (i == 5) {
       const sparky = document.getElementById('1');
       const snaky = document.getElementById('2');
-      sparky.src = "/make-sum-happy/public/pics/sparky-meh.png";
+      sparky.src = "public/pics/sparky-meh.png";
       sparky.style.transform = "scaleX(-1)";
-      snaky.src = "/make-sum-happy/public/pics/snaky-angry.png";
+      snaky.src = "public/pics/snaky-angry.png";
       dontAdd = true;
     } 
     if (!dontAdd) document.body.appendChild(img);
