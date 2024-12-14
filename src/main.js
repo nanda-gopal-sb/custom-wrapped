@@ -25,48 +25,6 @@ function embedStringInDiv(inputString) {
     </div>
   `;
 }
-if (is_touch_enabled()) {
-  document.body.ontouchend = function (e) {
-    let strAppend = embedStringInDiv(dialouge[i]);
-    console.log(i);
-    console.log(dialouge[i]);
-    document.querySelector('#app').innerHTML = strAppend;
-    const img = document.createElement('img');
-    img.id = `${i}`;
-    if (i == 1) {
-      img.src = "/make-sum-happy/public/pics/sparky-confused.png";
-      img.style.transform = "scaleX(-1)";
-    }
-    if (i == 2) {
-      img.src = "/make-sum-happy/public/pics/snaky-shocked.png";
-    }
-    if (i == 3) {
-      const sparky = document.getElementById('1');
-      const snaky = document.getElementById('2');
-      sparky.src = "/make-sum-happy/public/pics/sparky-angry.png";
-      sparky.style.transform = "scaleX(-1)";
-      snaky.src = "/make-sum-happy/public/pics/snaky-afraid.png";
-      dontAdd = true;
-    }
-    if (i == 4) {
-      const snaky = document.getElementById('2');
-      snaky.src = "/make-sum-happy/public/pics/snaky-sad.png";
-    }
-    if (i == 5) {
-      const sparky = document.getElementById('1');
-      const snaky = document.getElementById('2');
-      sparky.src = "/make-sum-happy/public/pics/sparky-meh.png";
-      sparky.style.transform = "scaleX(-1)";
-      snaky.src = "/make-sum-happy/public/pics/snaky-angry.png";
-      dontAdd = true;
-    } 
-    if (!dontAdd) document.body.appendChild(img);
-    i++;
-  }
-}
-else{
-
-
 document.body.onkeyup = function (e) {
   if (i < dialouge.length) {
     let strAppend = embedStringInDiv(dialouge[i]);
@@ -105,5 +63,4 @@ document.body.onkeyup = function (e) {
     if (!dontAdd) document.body.appendChild(img);
     i++;
   }
-}
 }
