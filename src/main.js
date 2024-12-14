@@ -34,30 +34,30 @@ document.body.onkeyup = function (e) {
     const img = document.createElement('img');
     img.id = `${i}`;
     if (i == 1) {
-      img.src = "../public/sparky-confused.png";
+      img.src = "../sparky-confused.png";
       img.style.transform = "scaleX(-1)";
     }
     if (i == 2) {
-      img.src = "../public/snaky-shocked.png";
+      img.src = "../snaky-shocked.png";
     }
     if (i == 3) {
       const sparky = document.getElementById('1');
       const snaky = document.getElementById('2');
-      sparky.src = "../public/pics/sparky-angry.png";
+      sparky.src = "../sparky-angry.png";
       sparky.style.transform = "scaleX(-1)";
-      snaky.src = "../public/snaky-afraid.png";
+      snaky.src = "../snaky-afraid.png";
       dontAdd = true;
     }
     if (i == 4) {
       const snaky = document.getElementById('2');
-      snaky.src = "../public/snaky-sad.png";
+      snaky.src = "../snaky-sad.png";
     }
     if (i == 5) {
       const sparky = document.getElementById('1');
       const snaky = document.getElementById('2');
-      sparky.src = "../public/pics/sparky-meh.png";
+      sparky.src = "../sparky-meh.png";
       sparky.style.transform = "scaleX(-1)";
-      snaky.src = "../public/snaky-angry.png";
+      snaky.src = "../snaky-angry.png";
       dontAdd = true;
     } 
     if (!dontAdd) document.body.appendChild(img);
