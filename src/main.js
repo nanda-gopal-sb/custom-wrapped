@@ -1,5 +1,4 @@
 import input from './text.json';
-
 let i = 0;
 const body = document.querySelector('body');
 const text = document.getElementById('text');
