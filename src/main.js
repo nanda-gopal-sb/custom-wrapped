@@ -6,7 +6,6 @@ body.addEventListener('touchstart', function (e) {
     text.innerHTML = input.text[i];
     if (i === (input.text.length - 1)) {
         i = 0;
-        console.log(i);
     }
     else {
         i++;
