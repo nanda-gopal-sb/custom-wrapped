@@ -8,7 +8,7 @@ To get started with Custom Wrapped, follow these steps:
 
 1. Clone the repository:
     ```
-    git clone https://github.com/yourusername/custom-wrapped.git
+    git clone https://github.com/nanda-gopal-sb/custom-wrapped.git
     ```
 2. Navigate to the project directory:
     ```
@@ -18,5 +18,14 @@ To get started with Custom Wrapped, follow these steps:
 
 ## Usage
 
-After editing the `text.json` file, you can generate your custom Spotify Wrapped by running the project. 
+* To only run the project in localhost: 
+    ```
+    npm run dev 
+    ```
+* To deploy on github pages: 
+    ```
+    npm run deploy
+    ```
+
+
 
