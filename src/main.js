@@ -5,8 +5,7 @@ const text = document.getElementById('text');
 body.addEventListener('touchstart', function (e) {
     text.innerHTML = input.text[i];
     if(i===input.text.length-1){
-        const button = document.querySelector('button');
-        button.setAttribute('onclick', 'redirect()');
+        i=0;
     }
     else{
         i++;
