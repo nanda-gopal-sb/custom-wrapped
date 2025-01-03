@@ -1,6 +1,6 @@
 # Custom Wrapped
 
-Custom Wrapped is a project that allows users to create their own Spotify Wrapped by editing the `text.json` file in the `src` directory. The text can be plain text or valid HTML.
+Custom Wrapped is a project that allows users to create their own Spotify Wrapped by editing the text.json file in the src directory. The text can be plain text or valid HTML.
 
 ## Getting Started
 
@@ -14,7 +14,7 @@ To get started with Custom Wrapped, follow these steps:
     ```
     cd custom-wrapped
     ```
-3. Open the `text.json` file located in the `src` directory and edit the content as needed. You can use plain text or valid HTML.
+3. Open the text.json file located in the src directory and edit the content as needed. You can use plain text or valid HTML.
 
 ## Usage
 
