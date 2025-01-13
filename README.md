@@ -2,6 +2,7 @@
 
 Custom Wrapped is a project that allows users to create their own Spotify Wrapped by editing the text.json file in the src directory. The text can be plain text or valid HTML.
 
+
 ## Getting Started
 
 To get started with Custom Wrapped, follow these steps:
